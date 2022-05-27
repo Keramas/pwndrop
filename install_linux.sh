@@ -12,9 +12,6 @@ echo "*** stopping pwndrop."
 ./pwndrop stop
 echo "*** installing."
 ./pwndrop install
-./pwndrop start
-./pwndrop status
 echo "*** cleaning up."
 cd ../..
 rm -rf ${FILENAME}/
-
